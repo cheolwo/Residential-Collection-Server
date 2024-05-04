@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>주거(司空)수집서버</name>
+    </assembly>
+    <members>
+        <member name="M:국토교통부_공공데이터Common.Handlr.공동주택단지목록정보수집Handlr.Handle(국토교통부_공공데이터Common.공동주택_단지_목록제공_서비스.공동주택단지Request,System.Threading.CancellationToken)">
+            <summary>
+            APIService로 전체목록을 Get하는 단계
+            반복문 안에서 동일한 DB에 KAptCode가 있는지 확인단계
+            없는 경우 Model로 Mapping 하고 DB에 Add하는 단계를 포함하는 공동주택단지구성Handlr프로세스
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:공동주택단지정보수집Handlr" -->
+    </members>
+</doc>
