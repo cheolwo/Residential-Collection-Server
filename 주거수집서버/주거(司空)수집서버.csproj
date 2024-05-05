@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CommonHouse\국토교통부 공공데이터\국토교통부 공공데이터Common\국토교통부 공공데이터Common.csproj" />
+    <ProjectReference Include="..\..\CommonHouse\국토교통부 공공데이터\국토교통부 공공데이터Common\국토교통부 공공데이터Common.csproj" />
   </ItemGroup>
 
 </Project>

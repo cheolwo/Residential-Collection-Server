@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "주거(司空)수집서버", "주거(司空)수집서버.csproj", "{FEC0DFC6-BB48-4B4C-8BD3-EE866ECE9009}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "국토교통부 공공데이터Common", "..\..\CommonHouse\국토교통부 공공데이터\국토교통부 공공데이터Common\국토교통부 공공데이터Common.csproj", "{B44D1DF5-8711-4599-B1F4-BB7B0D682D48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FEC0DFC6-BB48-4B4C-8BD3-EE866ECE9009}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEC0DFC6-BB48-4B4C-8BD3-EE866ECE9009}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEC0DFC6-BB48-4B4C-8BD3-EE866ECE9009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B44D1DF5-8711-4599-B1F4-BB7B0D682D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44D1DF5-8711-4599-B1F4-BB7B0D682D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44D1DF5-8711-4599-B1F4-BB7B0D682D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44D1DF5-8711-4599-B1F4-BB7B0D682D48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

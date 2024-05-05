@@ -2,14 +2,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 using 국토교통부_공공데이터Common;
+using 국토교통부_공공데이터Common.MappingProfile;
 using 국토교통부_공공데이터Common.개발사용료정보제공서비스;
 using 국토교통부_공공데이터Common.공동주택_기본정보_제공서비스;
-using 국토교통부_공공데이터Common.공용관리비_정보제공서비스.MappingProfile;
 using 국토교통부_공공데이터Common.공용관리비정보제공서비스;
 using 국토교통부_공공데이터Common.국토교통부_공동주택단지목록제공서비스;
 using 국토교통부_공공데이터Common.에너지사용정보_정보서비스;
 using 국토교통부_공공데이터Common.장기수선충당금_정보서비스;
-using 국토교통부_공공데이터Common.장기수선충당금_정보서비스.MappingProfile;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -67,16 +66,7 @@ builder.Services.AddAutoMapper(
     );
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
-//// MediatR 핸들러 등록
-//builder.Services.AddMediatR(cfg =>
-//{
-//    cfg.AddMediatR(Assembly.GetExecutingAssembly()); // 현재 어셈블리에 있는 모든 MediatR 핸들러 자동 등록
-//    // 여러 어셈블리가 있다면, 아래와 같이 추가할 수 있습니다.
-//    // cfg.AddMediatR(typeof(SomeOtherHandler).Assembly);
-//});
 
-
-// 공동주택단지APIService
 builder.Services.AddTransient<공동주택단지목록APIService>();
 builder.Services.AddTransient<공동주택단지정보APIService>();
 builder.Services.AddTransient<공동주택개별관리비APIService>();
