@@ -76,7 +76,7 @@ builder.Services.AddTransient<공동주택에너지사용정보APIService>();
 builder.Services.AddTransient<공동주택장기수선충당금APIService>();
 ```
 
-<h2 align="center"><strong><span style="color:red;">공동주택정보수집Controller의 DFD</span></strong></h2>
+<h2 align="center"><strong><span style="color:red;">공동주택정보수집Controller의 sequenceDiagram</span></strong></h2>
 
 ```mermaid
 sequenceDiagram
@@ -103,7 +103,7 @@ sequenceDiagram
 
 ```
 
-<h2 align="center"><strong><span style="color:red;">비용정보수집Controller의 DFD</span></strong></h2>
+<h2 align="center"><strong><span style="color:red;">비용정보수집Controller의 sequenceDiagram</span></strong></h2>
 
 ```mermaid
 sequenceDiagram
